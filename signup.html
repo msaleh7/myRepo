@@ -1,0 +1,85 @@
+
+<html>
+
+<head>
+
+<title>New User Registration Page</title>
+
+
+
+<style type="text/css">
+
+table {
+background-color: #FCF;
+}
+
+th {
+width: 150px;
+text-align: left;
+}
+
+
+</style>
+</head>
+
+
+<body>
+<h1>Create New Account</h1>
+
+
+<form method = "POST" action = "signup.php">
+<input type="hidden" name ="submitted" value ="true"/>
+
+<table>
+
+<h4 font color = "#F1948A">Personal Info:</font></h4>
+<tr>
+<th><lablel>First Name: </th><th></lablel><input type = "text" name  = "fname" /></th>
+</tr>
+
+<tr>
+<th><lablel>Last Name: </th> <th></lablel><input type = "text" name  = "lname" /></th>
+</tr>
+
+<tr>
+<th><lablel>Email Address: </th> <th></lablel><input type = "text" name  = "email" /></th>
+</tr>
+
+<tr>
+<th><lablel>Street Address: </th> <th></lablel><input type = "text" name  = "address" /></th>
+</tr>
+
+<tr>
+<th><lablel>City: </th> <th></lablel><input type = "text" name  = "City" /></th>
+</tr>
+
+<tr>
+<th><lablel>State: </th> <th></lablel><input type = "text" name  = "state" /></th>
+</tr>
+
+<tr>
+<th><lablel>Zip Code: </th> <th></lablel><input type = "text" name  = "zcode" /></th>
+</tr>
+
+</table>
+
+<table>
+
+<h4 font color = "#F1948A">New Account Info:</font></h4>
+<tr>
+<th><lablel>User Name: </th><th></lablel><input type = "text" name  = "uname" /></th>
+</tr>
+
+<tr>
+<th><lablel>New Password: </th><th></lablel><input type = "text" name  = "newpass"/></th>
+</tr>
+
+
+
+</table>
+
+
+<input type = "submit" value = "Create Account"/>
+</form>
+</body>
+</html>
